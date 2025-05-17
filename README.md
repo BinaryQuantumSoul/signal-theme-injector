@@ -1,5 +1,5 @@
 # Signal Desktop theme injector
-Bash script to inject custom css into Signal Desktop. Inspired by [signal-themer](https://github.com/ofcoursenp/signal-themer/tree/main) and [signal-desktop](https://github.com/CalfMoon/signal-desktop).
+Bash script to inject custom css into Signal Desktop. Inspired by [signal-themer](https://github.com/ofcoursenp/signal-themer) and [signal-desktop](https://github.com/CalfMoon/signal-desktop).
 
 ## Installation
 1. Install `@electron/asar` from npm
@@ -18,3 +18,6 @@ You can find themes [here](https://github.com/CalfMoon/signal-desktop/tree/main/
 ```
 3. Run Signal
 
+## Credits
+- [CalfMoon](https://github.com/CalfMoon)
+- [ofcoursenp](https://github.com/ofcoursenp)
