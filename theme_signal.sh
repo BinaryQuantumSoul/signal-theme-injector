@@ -23,11 +23,7 @@ select_theme() {
     theme="$selected"
 }
 
-app_path="/usr/lib/signal-desktop/resources/app.asar"
-if flatpak list | grep -q org.signal.Signal; then
-    app_path="$HOME/.local/share/flatpak/app/org.signal.Signal/current/active/files/Signal/resources/app.asar"
-fi
-
+app_path="$HOME/.local/share/flatpak/app/org.signal.Signal/current/active/files/Signal/resources/app.asar"
 if [ ! -f "$app_path" ]; then
     echo "app.asar not found at: $app_path"
     exit 1
